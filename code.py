@@ -8,7 +8,8 @@ def filewrite(question,options,answer):
     filesave.write("Options: "+str(options)+"\n")
     filesave.write("User answer: "+str(answer)+"\n")
     filesave.write("-"*100+"\n")
-    
+
+#defining the first question
 def q1():
     score=0
     ques1="Q1 If you get INR5000 from someone, what would you do with that money? Write option 1,2,3 or 4"
